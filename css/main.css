@@ -1,0 +1,74 @@
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: sans-serif;
+}
+header, footer {
+	padding: 1% 0;
+}
+header img {
+	width: 150px;
+}
+header nav {
+	font-size: 14px;
+	padding: 12px 0;
+	text-align: right;
+}
+header nav a {
+	color: #808080;
+	margin: 0 10px;
+}
+header nav a:hover {
+	color: #D60838;
+}
+section {
+	background-color: #808080;
+	color: white;
+	padding: 4% 0;
+}
+section h1 {
+	font-size: 50px;
+}
+section p {
+	font-size: 14px;
+	padding: 20px 0;
+	width: 80%;
+}
+section .myform {
+	background-color: #999A9A;
+	border-radius: 8px;
+	padding: 20px 0;
+}
+section input, section .btn-subscribe {
+	height: 30px;
+	margin: 5px 0;
+	width: 90%;
+}
+section .btn-subscribe {
+	background-color: #3DB0F7;
+	border-style: none;
+	color: white;
+	padding: 5px 0;
+}
+section .btn-subscribe:hover {
+	background-color: #FCD313;
+	cursor: pointer;
+}
+footer p {
+	padding-left: 15px;
+}
+
+/* MEDIA QUERIES */
+@media all and (max-width: 535px) {
+	.container {
+		width: 90%;
+	}
+	.col-4, .col-8 {
+		width: 100%;
+	}
+	section p {
+		width: 100%;
+	}
+}
